@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #FFE19B;
+
+}
+
+
+
+/* Inicio HEADER*/
+
+.header-container{
+    display: flex;
+    margin-top: 200px;
+}
+
+/*
+.header-container ul{
+}
+*/
+.navbar {
+    justify-content: space-between;
+}
+
+.header-container a img{
+    margin-left: 50px;
+    max-height: 300px;
+    max-width: 350px;
+    padding-right: 750px;   
+}
+
+
+.header-container div img{
+    background-image: url(imagenes/img-header.jpg);
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+    /* Inicio MAIN*/
+.main-container{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+   
+    background-color: #FFE19B;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reservar-ref{
+    margin-inline: auto;
+    display: flex;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    background-color: #c2c1c1;
+    margin-bottom: 20px;
+}
+
+
+.index-descript{
+    margin-inline: auto;
+    width: 80%;
+    background-color: #ffd167;
+    justify-content: center;
+}
+
+
+.complejo-description {
+    margin-inline: auto;
+    width: 60%;
+    background-color: #ffd167;
+    justify-content: center;
+}
+
+
+.ubi-description{
+    width: 400px;
+    height: 110px;
+    background-color: #ffd167;
+    text-align: center;
+
+}
+
+.reservar-description{
+    width: 400px;
+    height: 40px;
+    background-color: #ffd167;
+    text-align: center;
+}
+.servicios-description{
+    color: white;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 240px;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+}
+
+.actividades-description{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 160px;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+}
+
+.servicios-p{
+    width: 650px;
+    height: 150px;
+    background-color: #ffd167;
+    text-align: center;
+}
+
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+  /* Inicio FOOTER*/
+
+footer{
+    background-color: #c2c1c1;
+    color: white;
+
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
