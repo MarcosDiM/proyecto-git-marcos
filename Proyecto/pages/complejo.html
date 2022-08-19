@@ -33,45 +33,68 @@
 
 
     <!-- Inicio del MAIN-->
-    <main class=" main-container">
-        <article>
-            <div class="reservar-ref"><a href="./reservar.html">Reservar</a></div>  
+    <main>
+        <article class="main-container">
+            <div class="reservar-ref btn btn-secondary"><a href="./reservar.html">Reservar</a></div>  
 
             <div class="complejo-description">
                 <p> El Mirador está compuesto por tres casas de montaña en un entorno agreste, rodeado de paisajes montañosos, en un predio de 5.000 m2. en plena cordillera, a 25 km. de las Termas de Cacheuta, a 1:45 hs. del Parque Aconcagua y a 1 hs. de la ciudad de Mendoza.</p>
             </div>
+        </article>
 
-            <div class="complejo-description">
-                <img src="../imagenes/primer_imagen.jpg" alt="primer_imagen">
-            </div>
+        <section class="main-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/primer_imagen.jpg" class="d-block w-100" alt="Complejo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/segunda_imagen.jpg" class="d-block w-100" alt="Vista">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/interior.jpg" class="d-block w-100" alt="Interior">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
 
-            <div class="complejo-description">
-                <img src="../imagenes/interior.jpg" alt="">
-            </div>
-
-            <div class="complejo-description">
-                <img src="../imagenes/segunda_imagen.jpg" alt="">
-            </div>
-
+        <article class="main-container">
             <div class="complejo-description">
                 <p> Nuestro complejo posee en cada una de sus casas ventanales muy amplios con una vista privilegiada que permite observar una cadena de montañas denominada "Cordón del Plata" con su cumbre de 6.000 metros</p>
             </div>
 
-            <div class="reservar-ref"><a href="./reservar.html">Reservar</a></div>
+            <div class="reservar-ref btn btn-secondary"><a href="./reservar.html">Reservar</a></div>
         </article>
     </main>
 
 
     <!--Inicio FOOTER-->
     <footer>
+        <div class="col-5   ">
         <h3><em>El Mirador Casas de Montaña</em></h3>
         <h4>Potrerillos - Mendoza - Argentina</h4>
-        <ul>
+        </div>
+        <ul class="col-3">
             <li><a href="https://www.facebook.com/elmirador.potrerillos/" target="_blank">Facebook</a></li>
             <li><a href="https://www.instagram.com/elmirador.ok/" target="_blank">Instagram</a></li>
+        </ul>
+        <div class="col-3">
             <li>Movil 542619999</li>
             <li>WhatsApp 542619999</li>
-        </ul>
+        </div>
     </footer>
 
 </body>
