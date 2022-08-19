@@ -137,8 +137,11 @@ main a{
   /* Inicio FOOTER*/
 
 footer{
+    display: flex;
     background-color: #c2c1c1;
     color: white;
+    height: 150px;
+    justify-content:center ;
 
 }
 
