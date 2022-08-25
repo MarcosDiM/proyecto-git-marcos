@@ -16,22 +16,7 @@ body{
 .header-container{
     display: flex;
     margin-top: 200px;
-    margin-bottom: 150px;
-}
-
-/*
-.header-container ul{
-}
-*/
-.navbar {
-    justify-content: space-between;
-}
-
-.header-container a img{
-    margin-left: 50px;
-    max-height: 300px;
-    max-width: 350px;
-    padding-right: 750px;   
+    
 }
 
 
@@ -111,24 +96,22 @@ nav li a{
 
 }
 .actividades-description{
-    color: white;
+    color: black;
     margin-top: 50px;
     margin-bottom: 20px;
     background-color: rgb(190, 190, 190);
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 
 .servicios-p{
     display: flex;
-    width: 650px;
-    height: 180px;
     background-color: #ffd167;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
-    
     margin-inline: auto;
     
 }
