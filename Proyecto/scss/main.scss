@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #FFE19B;
+
+}
+
+
+
+/* Inicio HEADER*/
+
+.header{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.header div img{
+    background-image: url(imagenes/img-header.jpg);
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+ul{
+    list-style: none;
+    li {
+    display: flex;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    }
+}
+
+    /* Inicio MAIN*/
+.main-container{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: #FFE19B;
+    justify-content: center;
+    
+}
+
+.reservar-ref{
+    margin-inline: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.index-descript{
+    margin-inline: auto;
+    width: 80%;
+    background-color: #ffd167;
+    justify-content: center;
+}
+
+
+.complejo-description {
+    margin-inline: auto;
+    width: 60%;
+    background-color: #ffd167;
+    justify-content: center;
+}
+
+
+.ubi-description{
+    width: 400px;
+    height: 110px;
+    background-color: #ffd167;
+    text-align: center;
+
+}
+
+.reservar-description{
+    width: 400px;
+    height: 40px;
+    background-color: #ffd167;
+    text-align: center;
+}
+
+.servicios-description{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.actividades-description{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.servicios-p{
+    display: flex;
+    width: 650px;
+    height: 180px;
+    background-color: #ffd167;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    margin-inline: auto;
+    
+}
+
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+  /* Inicio FOOTER*/
+
+footer{
+    display: flex;
+    background-color: #c2c1c1;
+    color: white;
+    height: 150px;
+    justify-content:center ;
+
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
