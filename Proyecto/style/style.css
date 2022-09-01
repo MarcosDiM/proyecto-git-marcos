@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   text-decoration: none;
   list-style: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -11,61 +10,41 @@ body {
 
 /* Inicio HEADER*/
 .header {
-  display: flex;
-  margin-top: 200px;
-  margin-bottom: 150px;
-}
-
-.header div img {
-  background-image: url(imagenes/img-header.jpg);
+  background-image: url(../imagenes/img-header.jpg);
   background-size: cover;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
+  height: 35vh;
 }
-
-ul li {
-  display: flex;
-  justify-content: space-between;
-}
-ul li a {
+.header nav ul li a {
   text-decoration: none;
   color: white;
 }
 
 /* Inicio MAIN*/
 .main-container {
+  margin-inline: auto;
   display: grid;
-  grid-template-columns: auto;
   text-align: center;
-  background-color: #FFE19B;
   justify-content: center;
 }
 
 .reservar-ref {
   margin-inline: auto;
-  display: flex;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  text-decoration: none;
-  text-decoration: none;
-  color: white;
 }
 
 .index-descript {
   margin-inline: auto;
-  width: 80%;
   background-color: #ffd167;
   justify-content: center;
 }
 
 .complejo-description {
-  margin-inline: auto;
   width: 60%;
   background-color: #ffd167;
   justify-content: center;
+  margin-inline: auto;
 }
 
 .ubi-description {
@@ -119,7 +98,7 @@ footer {
   display: flex;
   background-color: #c2c1c1;
   color: white;
-  height: 150px;
+  height: 20vh;
   justify-content: center;
 }
 
