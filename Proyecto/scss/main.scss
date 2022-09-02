@@ -43,7 +43,8 @@ body{
 
 
 
-.index-descript{
+.index-description {
+    width: 60vw;
     margin-inline: auto;
     background-color: #ffd167;
     justify-content: center;
@@ -59,8 +60,7 @@ body{
 
 
 .ubi-description{
-    width: 400px;
-    height: 110px;
+    width: 60vw;
     background-color: #ffd167;
     text-align: center;
 
@@ -74,6 +74,7 @@ body{
 }
 
 .servicios-description{
+    width: 70vw;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -85,14 +86,13 @@ body{
     margin-bottom: 20px;
     background-color: rgb(190, 190, 190);
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: space-between;
+    margin-inline: auto;
 }
 
 .servicios-p{
     display: flex;
-    width: 650px;
-    height: 180px;
+    width: 60vw;
     background-color: #ffd167;
     text-align: center;
     margin-left: 20px;
